@@ -18,5 +18,6 @@ typedef struct {
 } Test;
 
 Test* newTest();
+Test* deleteTest(Test *test);
 
 #endif /* CFunctions_h */

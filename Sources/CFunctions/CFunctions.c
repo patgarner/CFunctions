@@ -19,3 +19,8 @@ Test* newTest() {
     test->b = 55;
     return test;
 }
+
+Test* deleteTest(Test *test) {
+    free(test);
+    return NULL;
+}
