@@ -20,6 +20,10 @@ Test* newTest() {
     return test;
 }
 
+Test newTest2() {
+    return (Test){'b', 36};
+}
+
 Test* deleteTest(Test *test) {
     free(test);
     return NULL;
