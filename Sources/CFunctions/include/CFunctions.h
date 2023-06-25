@@ -8,7 +8,7 @@
 #ifndef CFunctions_h
 #define CFunctions_h
 
-#include <stdio.h>
+#include "CPPFunctions.hpp"
 
 void sayHello(void);
 
