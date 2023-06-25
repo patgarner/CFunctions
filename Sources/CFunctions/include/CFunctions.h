@@ -12,4 +12,11 @@
 
 void sayHello(void);
 
+typedef struct {
+    char a;
+    int b;
+} Test;
+
+Test* newTest();
+
 #endif /* CFunctions_h */
