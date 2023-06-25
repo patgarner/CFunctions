@@ -8,9 +8,17 @@
 #ifndef CPPFunctions_hpp
 #define CPPFunctions_hpp
 
-class TestClass {
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+struct TestClass {
     TestClass();
     ~TestClass();
 };
+
+#ifdef __cplusplus
+}
+#endif
 
 #endif /* CPPFunctions_cpp_hpp */
