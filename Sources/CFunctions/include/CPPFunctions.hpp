@@ -12,10 +12,7 @@
 extern "C" {
 #endif
 
-struct TestClass {
-    TestClass();
-    ~TestClass();
-};
+void doSomething(void);
 
 #ifdef __cplusplus
 }
