@@ -1,0 +1,4 @@
+module CFunctions [system] {
+    header "include/CFunctions.h"
+    export *
+}
