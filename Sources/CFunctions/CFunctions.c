@@ -6,7 +6,20 @@
 //
 
 #include "CFunctions.h"
+#include <stdlib.h>
 
 void sayHello(void) {
     printf("hello!\n");
+}
+
+typedef struct {
+    char a;
+    int b;
+} Test;
+
+Test* newTest() {
+    Test *test = (Test*)malloc(sizeof(Test));
+    test->a = 'a';
+    test->b = 55;
+    return test;
 }
