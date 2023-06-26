@@ -32,7 +32,7 @@ void *newTestClass() {
     return (void*)testClass;
 }
 
-void sayHello(void *val) {
+void sayHelloTC(void *val) {
     TestClass *testClass = (TestClass*)val;
     testClass->sayHello();
 }
