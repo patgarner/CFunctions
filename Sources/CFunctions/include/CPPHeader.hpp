@@ -12,12 +12,6 @@
 extern "C" {
 #endif
 
-class TestClass {
-public:
-    TestClass();
-    ~TestClass();
-};
-
 void doSomething(void);
 
 #ifdef __cplusplus

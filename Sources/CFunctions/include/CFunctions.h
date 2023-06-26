@@ -11,5 +11,4 @@
 #include "CHeader.h"
 #include "CPPHeader.hpp"
 
-
 #endif /* CFunctions_h */
