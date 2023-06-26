@@ -12,11 +12,12 @@
 extern "C" {
 #endif
 
-void doSomething(void);
-
-void *newTestClass();
-void sayHello(void *val);
-void *deleteTestClass(void *val);
+namespace TC {
+    void doSomething(void);
+    void *newTestClass();
+    void sayHello(void *val);
+    void *deleteTestClass(void *val);
+};
 
 #ifdef __cplusplus
 }
