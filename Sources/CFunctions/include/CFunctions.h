@@ -8,17 +8,8 @@
 #ifndef CFunctions_h
 #define CFunctions_h
 
-#include "CPPFunctions.hpp"
+#include "CHeader.h"
+#include "CPPHeader.hpp"
 
-void sayHello(void);
-
-typedef struct {
-    char a;
-    int b;
-} Test;
-
-Test* newTest();
-Test newTest2();
-Test* deleteTest(Test *test);
 
 #endif /* CFunctions_h */

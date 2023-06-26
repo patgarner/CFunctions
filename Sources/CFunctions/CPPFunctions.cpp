@@ -5,13 +5,8 @@
 //  Created by Pat Garner on 6/25/23.
 //
 
-#include "CPPFunctions.hpp"
+#include "CPPHeader.hpp"
 #include <iostream>
-
-struct TestClass {
-    TestClass();
-    ~TestClass();
-};
 
 TestClass::TestClass() {
     std::cout << "Creating TestClass Instance" << std::endl;

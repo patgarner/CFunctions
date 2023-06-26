@@ -5,7 +5,7 @@
 //  Created by Pat Garner on 6/25/23.
 //
 
-#include "CFunctions.h"
+#include "CHeader.h"
 #include <stdio.h>
 #include <stdlib.h>
 
