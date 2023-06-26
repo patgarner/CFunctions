@@ -14,6 +14,10 @@ extern "C" {
 
 void doSomething(void);
 
+void *newTestClass();
+void sayHello(void *val);
+void *deleteTestClass(void *val);
+
 #ifdef __cplusplus
 }
 #endif
